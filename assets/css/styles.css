@@ -118,9 +118,34 @@ header nav ul li a{
 ================================================*/
 
 body main section:first-child {
-    background: url("../svg/5c898cd67456ffcba141a5ff_PROJECTS.svg");
     background-repeat: no-repeat;
     height: 100vh;
+}
+
+body main section:first-child img {
+    margin-left: 30vh;
+    padding-top: 30vh;
+}
+
+body main section:first-child h2 {
+    font-size: 4rem;
+    margin-left: 30vh;
+    
+}
+
+body main section:first-child p:nth-of-type(1) {
+    margin-left: 30vh;
+    margin-right: 80vh;
+    margin-top: 6vh;
+    font-size: 1rem;
+    font-family: 'Maven Pro', sans-serif; */
+}
+
+body main section:first-child p:nth-of-type(2) {
+    margin-left: 30vh;
+    margin-top: 4vh;
+    font-size: 1rem;
+    font-family: 'Maven Pro', sans-serif; */
 }
 
 body main section:nth-child(2) {
@@ -162,7 +187,7 @@ body main section:nth-child(3) div {
 }
 
 body main section:nth-child(3) div img {
-    height: 75vh;
+    height: 68vh;
     border: 0px solid white;
     border-radius: 5px;
 }
@@ -192,7 +217,7 @@ body main section:nth-child(4) div {
 }
 
 body main section:nth-child(4) div img {
-    height: 70vh;
+    height: 74vh;
     border: 0px solid white;
     border-radius: 5px;
 }
